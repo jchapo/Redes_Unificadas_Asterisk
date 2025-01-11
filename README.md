@@ -24,12 +24,16 @@ Este proyecto presenta la instalación, configuración y pruebas de un servidor 
   - Reproducción y análisis del flujo RTP.
   - Visualización de los flujos SIP en Wireshark, incluyendo la negociación del codec **g711U**.
   - Verificación de calidad de llamada con tasa de transferencia cercana a 64 kbps.
+  ![image](https://github.com/user-attachments/assets/1d379b98-2ccd-4fa7-9462-6cc8ca4f5298)
+
 
 ### Experiencia 2: Redireccionamiento Automático
 - **Escenario**: Softphone 1 llama a Softphone 2, que no contesta, y la llamada es redirigida al Softphone 3.
 - **Resultados**:
   - Análisis de los flujos SIP y RTP de dos llamadas consecutivas (7001 → 7002 y 7001 → 7003).
   - Identificación de congestión de red mediante estadísticas de **Packet Loss** y **Max Delta**.
+![image](https://github.com/user-attachments/assets/4ce5bba0-a82c-46a9-92c6-0df8336f1253)
+
 
 ### Experiencia 3: Llamada al Buzón de Voz
 - **Escenario**: Softphone 1 llama a Softphone 2, este no contesta y se redirige al buzón de voz configurado en el Softphone 3.
@@ -37,6 +41,8 @@ Este proyecto presenta la instalación, configuración y pruebas de un servidor 
   - Registro del mensaje en el buzón de voz.
   - Reproducción de audio del mensaje almacenado.
   - Análisis detallado del flujo SIP y RTP en Wireshark.
+![image](https://github.com/user-attachments/assets/480a0ba4-ae56-451a-82bd-f072b3741533)
+
 
 ## 📈 Herramientas Utilizadas
 - **Asterisk**: Servidor IP PBX para configuración y manejo de llamadas.
